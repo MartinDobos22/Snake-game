@@ -1,0 +1,25 @@
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+
+.container:before,
+.group:before,
+.menu:before,
+.container:after, 
+.group:after,
+.menu:after {
+    content: " "; 
+    display: table; 
+}
+
+.container:after,
+.group:after,
+.menu:after {
+    clear: both;
+}

@@ -1,0 +1,50 @@
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+/*clearfix*/
+
+
+.container:before,
+.group:before,
+.menu:before,
+.container:after,
+.group:after,
+.menu:after{
+	content: " ";
+	display: table;
+}
+
+.container:after,
+.group:after,
+.menu:after{
+	clear: both;
+}
+
+img {
+	max-width:100%;
+	height: auto;
+	vertical-align: middle;
+}
+
+body {
+
+	background: #ffbf00;
+	text-align: center;
+}
+
+canvas {
+	border: 10px solid red;
+}
+
+h1 {
+	margin-top: 0;
+	font-size: 4em;
+	font-family: "Avenir Next", Verdana;
+	font-weight: bold;
+	letter-spacing: -10px;
+}
